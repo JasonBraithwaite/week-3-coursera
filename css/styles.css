@@ -39,9 +39,7 @@ h1{
 }
 
 #backToTop{
-    display: block;
-    margin-right: 0 auto;
-    margin-left: 0 auto;
+    box-sizing: content-box;
 }
 
 .dish-description{

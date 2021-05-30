@@ -57,12 +57,21 @@ h1{
 }
 
 @media (min-width: 992px){
-    #top-nav-menu{
+    #top-nav-menu > li{
         visibility: hidden;
+        display: none;
     }
+
+   .collapse {
+       visibility: hidden;
+       display: none;
+   }
+   #menu-item{
+       display:none;
+   }
 }
 
-#top-nav-menu > li{
+#top-nav-menu li {
     border: solid grey 1px;
 }
 
